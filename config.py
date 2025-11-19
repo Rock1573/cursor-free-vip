@@ -322,7 +322,7 @@ def print_config(config, translator=None):
 
     print()  
 
-def force_update_config(translator=None):
+def force_update_config(translator=True):
     """
     Force update configuration file with latest defaults if update check is enabled.
     Args:
